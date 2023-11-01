@@ -29,6 +29,7 @@ public class BaseClass {
   @AfterMethod
   public void afterMethod() {
 	  driver.close();
+	  System.out.println("Browser is Closed");
   }
   public void IBrowsers(String NameOfBrowser, String url ) {
 		
